@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f1f5f9;
+}
+
+.container {
+    background: rgba(30, 41, 59, 0.85);
+    backdrop-filter: blur(12px);
+    padding: 45px;
+    border-radius: 18px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 18px;
+    font-size: 14px;
+    background: #0f172a;
+    color: white;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    font-size: 14px;
+}
+
+#generateBtn {
+    background: #6366f1;
+    color: white;
+}
+
+#generateBtn:hover {
+    background: #4f46e5;
+    transform: scale(1.03);
+}
+
+#downloadBtn {
+    margin-top: 15px;
+    background: #22c55e;
+    color: white;
+}
+
+#downloadBtn:hover {
+    background: #16a34a;
+    transform: scale(1.03);
+}
+
+#qr-container {
+    margin-top: 28px;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+canvas {
+    border-radius: 12px;
+    background: white;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
