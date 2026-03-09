@@ -1,10 +1,10 @@
 <div align="center">
 
 <h1>QR</h1>
-
-</div>
 <img width="387" height="316" alt="Screenshot from 2026-03-09 17-05-08" src="https://github.com/user-attachments/assets/6133b67b-8bd4-4dce-85a6-d4b5e64bfde9" />
 
+
+</div>
 
 
 QR is a simple browser tool that turns text or links into QR codes.
